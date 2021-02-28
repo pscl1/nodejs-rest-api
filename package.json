@@ -1,0 +1,19 @@
+{
+  "name": "productsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export MONGODB_URI=mongodb://localhost:27017/form-db && node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11",
+    "pdf-creator-node": "^1.4.2"
+  }
+}
